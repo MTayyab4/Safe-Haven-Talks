@@ -1,0 +1,499 @@
+{
+  "questions": [
+    {
+      "question": "Imagine your life as a journey, what would be the destination?",
+      "options": [
+        { "option": "A place of rest and relaxation", "score": 1 },
+        { "option": "A peaceful and serene place", "score": 5 },
+        { "option": "A place of growth and self-discovery", "score": 4 },
+        { "option": "An adventurous and exciting place", "score": 3 }
+      ]
+    },
+    {
+      "question": "If your emotions had scents, what would they be?",
+      "options": [
+        { "option": "Freshly baked cookies", "score": 4 },
+        { "option": "Fresh and uplifting like citrus", "score": 5 },
+        { "option": "Comforting like vanilla", "score": 3 },
+        { "option": "Invigorating like mint", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a poem about your current state of mind.",
+      "options": [
+        { "option": "Joyful and bright", "score": 4 },
+        { "option": "Hopeful and inspiring", "score": 5 },
+        { "option": "Reflective and deep", "score": 3 },
+        { "option": "Authentic and empowering", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had colors, what would be the palette of your mind?",
+      "options": [
+        { "option": "Calm blues and greens", "score": 4 },
+        { "option": "Vibrant and diverse like a rainbow", "score": 5 },
+        { "option": "Warm yellows and oranges", "score": 3 },
+        { "option": "Soft pastels", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your self-care routine as a recipe, what ingredients would it include?",
+      "options": [
+        { "option": "Relaxing activities and peace", "score": 3 },
+        { "option": "Nourishing activities and self-love", "score": 5 },
+        { "option": "Creative outlets and joy", "score": 4 },
+        { "option": "Exercise and energy", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts were a puzzle, how many pieces would they have?",
+      "options": [
+        { "option": "50", "score": 2 },
+        { "option": "100", "score": 4 },
+        { "option": "500", "score": 5 },
+        { "option": "1000", "score": 3 }
+      ]
+    },
+    {
+      "question": "What's the flavor of your current mood?",
+      "options": [
+        { "option": "Sweet like honey", "score": 5 },
+        { "option": "Zesty like lemon", "score": 3 },
+        { "option": "Rich like chocolate", "score": 4 },
+        { "option": "Refreshing like mint", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had textures, what would they feel like?",
+      "options": [
+        { "option": "Soft like a pillow", "score": 5 },
+        { "option": "Smooth like silk", "score": 3 },
+        { "option": "Warm like a blanket", "score": 4 },
+        { "option": "Gentle like a breeze", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a short script for a movie about your life.",
+      "options": [
+        { "option": "An inspiring journey of growth", "score": 4 },
+        { "option": "A heartwarming tale of friendship", "score": 5 },
+        { "option": "A reflective story of self-discovery", "score": 3 },
+        { "option": "An adventurous quest for happiness", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your well-being as a garden, what would it look like?",
+      "options": [
+        { "option": "Blooming flowers", "score": 5 },
+        { "option": "A mix of flowers and trees", "score": 4 },
+        { "option": "A lush vegetable garden", "score": 3 },
+        { "option": "A serene Zen garden", "score": 2 }
+      ]
+    },
+    {
+      "question": "If you could turn self-care into a sport, what would it be?",
+      "options": [
+        { "option": "Yoga", "score": 4 },
+        { "option": "Swimming", "score": 5 },
+        { "option": "Hiking", "score": 3 },
+        { "option": "Dancing", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the melody of your life's journey?",
+      "options": [
+        { "option": "A calming lullaby", "score": 5 },
+        { "option": "A joyful symphony", "score": 4 },
+        { "option": "A reflective piano solo", "score": 3 },
+        { "option": "An energetic pop song", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had scents, what would they smell like?",
+      "options": [
+        { "option": "Lavender", "score": 5 },
+        { "option": "Fresh linen", "score": 4 },
+        { "option": "Pine forest", "score": 3 },
+        { "option": "Citrus grove", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a letter to your future self.",
+      "options": [
+        { "option": "Reflective and wise", "score": 3 },
+        { "option": "Encouraging and hopeful", "score": 5 },
+        { "option": "Inspirational and uplifting", "score": 4 },
+        { "option": "Joyful and optimistic", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your well-being had a color palette, what colors would it include?",
+      "options": [
+        { "option": "Soft pastels", "score": 4 },
+        { "option": "Cool blues and greens", "score": 5 },
+        { "option": "Warm yellows and oranges", "score": 3 },
+        { "option": "Vibrant rainbow", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your thoughts as a library, what books would be on the shelves?",
+      "options": [
+        { "option": "Inspirational self-help books", "score": 4 },
+        { "option": "Creative fiction", "score": 5 },
+        { "option": "Reflective non-fiction", "score": 3 },
+        { "option": "Adventurous novels", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had temperatures, what would they be?",
+      "options": [
+        { "option": "Warm like sunshine", "score": 5 },
+        { "option": "Cool like a breeze", "score": 4 },
+        { "option": "Cozy like a fireplace", "score": 3 },
+        { "option": "Refreshing like a splash of water", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a poem about your strengths.",
+      "options": [
+        { "option": "Uplifting and motivational", "score": 4 },
+        { "option": "Joyful and positive", "score": 5 },
+        { "option": "Reflective and insightful", "score": 3 },
+        { "option": "Creative and unique", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your well-being had a soundtrack, what songs would be on it?",
+      "options": [
+        { "option": "Calm and soothing melodies", "score": 4 },
+        { "option": "Uplifting and joyful tunes", "score": 5 },
+        { "option": "Reflective and peaceful songs", "score": 3 },
+        { "option": "Energetic and lively beats", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the rhythm of your thoughts?",
+      "options": [
+        { "option": "Steady and calm", "score": 5 },
+        { "option": "Gentle and flowing", "score": 4 },
+        { "option": "Rhythmic and balanced", "score": 3 },
+        { "option": "Dynamic and lively", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your emotions as a kaleidoscope, what patterns would they make?",
+      "options": [
+        { "option": "Beautiful symmetrical patterns", "score": 5 },
+        { "option": "Colorful and diverse shapes", "score": 4 },
+        { "option": "Soft and flowing designs", "score": 3 },
+        { "option": "Intricate and detailed forms", "score": 2 }
+      ]
+    },
+    {
+      "question": "If self-care had a flavor, what would it be?",
+      "options": [
+        { "option": "Sweet like strawberries", "score": 5 },
+        { "option": "Refreshing like mint", "score": 4 },
+        { "option": "Warm like cinnamon", "score": 3 },
+        { "option": "Rich like chocolate", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a short story about overcoming a challenge.",
+      "options": [
+        { "option": "An inspiring tale of perseverance", "score": 5 },
+        { "option": "A heartwarming story of support", "score": 4 },
+        { "option": "A reflective journey of growth", "score": 3 },
+        { "option": "An adventurous quest of triumph", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had shapes, what would they be?",
+      "options": [
+        { "option": "Circles", "score": 4 },
+        { "option": "Triangles", "score": 5 },
+        { "option": "Squares", "score": 3 },
+        { "option": "Stars", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the frequency of your thoughts?",
+      "options": [
+        { "option": "Steady and consistent", "score": 5 },
+        { "option": "Rhythmic and balanced", "score": 4 },
+        { "option": "Dynamic and varied", "score": 3 },
+        { "option": "Lively and energetic", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your journey through life as a river, what would its flow be like?",
+      "options": [
+        { "option": "Calm and steady", "score": 5 },
+        { "option": "Gentle and smooth", "score": 4 },
+        { "option": "Flowing and balanced", "score": 3 },
+        { "option": "Dynamic and changing", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had fabrics, what would they be made of?",
+      "options": [
+        { "option": "Soft cotton", "score": 5 },
+        { "option": "Smooth silk", "score": 4 },
+        { "option": "Warm wool", "score": 3 },
+        { "option": "Cool linen", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a letter to your current state of being.",
+      "options": [
+        { "option": "Reflective and wise", "score": 3 },
+        { "option": "Encouraging and hopeful", "score": 5 },
+        { "option": "Inspirational and uplifting", "score": 4 },
+        { "option": "Joyful and optimistic", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had colors, what would be the dominant color?",
+      "options": [
+        { "option": "Blue for calm", "score": 4 },
+        { "option": "Green for peace", "score": 5 },
+        { "option": "Yellow for happiness", "score": 3 },
+        { "option": "Orange for energy", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your self-care routine as a recipe, what ingredients would it include?",
+      "options": [
+        { "option": "Relaxing activities and peace", "score": 3 },
+        { "option": "Nourishing activities and self-love", "score": 5 },
+        { "option": "Creative outlets and joy", "score": 4 },
+        { "option": "Exercise and energy", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your well-being had a mascot, what would it be and why?",
+      "options": [
+        { "option": "A peaceful dove", "score": 5 },
+        { "option": "A joyful dolphin", "score": 4 },
+        { "option": "A wise owl", "score": 3 },
+        { "option": "A playful monkey", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the tempo of your thoughts?",
+      "options": [
+        { "option": "Slow and steady", "score": 5 },
+        { "option": "Medium and rhythmic", "score": 4 },
+        { "option": "Fast and lively", "score": 3 },
+        { "option": "Varied and dynamic", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your emotions as a painting, what would be the title?",
+      "options": [
+        { "option": "Harmony", "score": 5 },
+        { "option": "Joyful Symphony", "score": 4 },
+        { "option": "Peaceful Reflection", "score": 3 },
+        { "option": "Colorful Life", "score": 2 }
+      ]
+    },
+    {
+      "question": "If self-care had a scent, what would it be?",
+      "options": [
+        { "option": "Lavender", "score": 5 },
+        { "option": "Citrus", "score": 4 },
+        { "option": "Vanilla", "score": 3 },
+        { "option": "Fresh linen", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a poem about your resilience.",
+      "options": [
+        { "option": "Strong and steadfast", "score": 5 },
+        { "option": "Hopeful and enduring", "score": 4 },
+        { "option": "Reflective and determined", "score": 3 },
+        { "option": "Joyful and persistent", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had textures, what would they feel like?",
+      "options": [
+        { "option": "Smooth like silk", "score": 5 },
+        { "option": "Soft like cotton", "score": 4 },
+        { "option": "Warm like wool", "score": 3 },
+        { "option": "Cool like linen", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your journey through life as a book, what would be the title?",
+      "options": [
+        { "option": "Path to Peace", "score": 5 },
+        { "option": "Journey of Joy", "score": 4 },
+        { "option": "Reflections of Growth", "score": 3 },
+        { "option": "Adventure Awaits", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had rhythms, what would they be?",
+      "options": [
+        { "option": "Steady heartbeat", "score": 5 },
+        { "option": "Gentle waltz", "score": 4 },
+        { "option": "Joyful jig", "score": 3 },
+        { "option": "Lively salsa", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the melody of your self-care routine?",
+      "options": [
+        { "option": "Calming lullaby", "score": 5 },
+        { "option": "Joyful tune", "score": 4 },
+        { "option": "Peaceful harmony", "score": 3 },
+        { "option": "Energetic beat", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your thoughts as a garden, what would be growing there?",
+      "options": [
+        { "option": "Flowers of peace", "score": 5 },
+        { "option": "Trees of wisdom", "score": 4 },
+        { "option": "Fruits of joy", "score": 3 },
+        { "option": "Herbs of relaxation", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your well-being had a symbol, what would it be and why?",
+      "options": [
+        { "option": "A lotus flower", "score": 5 },
+        { "option": "A sun", "score": 4 },
+        { "option": "A tree", "score": 3 },
+        { "option": "A wave", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a short script for a life-themed animation.",
+      "options": [
+        { "option": "An inspiring journey of growth", "score": 4 },
+        { "option": "A heartwarming tale of friendship", "score": 5 },
+        { "option": "A reflective story of self-discovery", "score": 3 },
+        { "option": "An adventurous quest for happiness", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had flavors, what would they taste like?",
+      "options": [
+        { "option": "Sweet like strawberries", "score": 5 },
+        { "option": "Refreshing like mint", "score": 4 },
+        { "option": "Warm like cinnamon", "score": 3 },
+        { "option": "Rich like chocolate", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your self-care routine as a workout routine, what exercises would it include?",
+      "options": [
+        { "option": "Yoga", "score": 4 },
+        { "option": "Swimming", "score": 5 },
+        { "option": "Hiking", "score": 3 },
+        { "option": "Dancing", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had temperatures, what would they be?",
+      "options": [
+        { "option": "Warm like sunshine", "score": 5 },
+        { "option": "Cool like a breeze", "score": 4 },
+        { "option": "Cozy like a fireplace", "score": 3 },
+        { "option": "Refreshing like a splash of water", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the harmony of your thoughts?",
+      "options": [
+        { "option": "Steady and calm", "score": 5 },
+        { "option": "Gentle and flowing", "score": 4 },
+        { "option": "Rhythmic and balanced", "score": 3 },
+        { "option": "Dynamic and lively", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your emotions as a puzzle, how many pieces would they have?",
+      "options": [
+        { "option": "1000", "score": 5 },
+        { "option": "500", "score": 4 },
+        { "option": "100", "score": 3 },
+        { "option": "50", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your well-being had a theme song, what would it be?",
+      "options": [
+        { "option": "Calm and soothing melody", "score": 5 },
+        { "option": "Uplifting and joyful tune", "score": 4 },
+        { "option": "Reflective and peaceful song", "score": 3 },
+        { "option": "Energetic and lively beat", "score": 2 }
+      ]
+    },
+    {
+      "question": "Write a letter to your emotions.",
+      "options": [
+        { "option": "Reflective and wise", "score": 3 },
+        { "option": "Encouraging and hopeful", "score": 5 },
+        { "option": "Inspirational and uplifting", "score": 4 },
+        { "option": "Joyful and optimistic", "score": 2 }
+      ]
+    },
+    {
+      "question": "If self-care had a texture, what would it feel like?",
+      "options": [
+        { "option": "Soft like a pillow", "score": 5 },
+        { "option": "Smooth like silk", "score": 4 },
+        { "option": "Warm like a blanket", "score": 3 },
+        { "option": "Gentle like a breeze", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your thoughts as a storm, what would be the weather like?",
+      "options": [
+        { "option": "Gentle rain", "score": 4 },
+        { "option": "Calm after the storm", "score": 5 },
+        { "option": "Refreshing breeze", "score": 3 },
+        { "option": "Soft snowfall", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your emotions had shapes, what would they be?",
+      "options": [
+        { "option": "Circles", "score": 4 },
+        { "option": "Triangles", "score": 5 },
+        { "option": "Squares", "score": 3 },
+        { "option": "Stars", "score": 2 }
+      ]
+    },
+    {
+      "question": "What's the cadence of your thoughts?",
+      "options": [
+        { "option": "Steady and calm", "score": 5 },
+        { "option": "Gentle and flowing", "score": 4 },
+        { "option": "Rhythmic and balanced", "score": 3 },
+        { "option": "Dynamic and lively", "score": 2 }
+      ]
+    },
+    {
+      "question": "Imagine your life's journey as a journey, what would be the destination?",
+      "options": [
+        { "option": "Path to Peace", "score": 5 },
+        { "option": "Journey of Joy", "score": 4 },
+        { "option": "Reflections of Growth", "score": 3 },
+        { "option": "Adventure Awaits", "score": 2 }
+      ]
+    },
+    {
+      "question": "If your thoughts had colors, what would be the rainbow of your mind?",
+      "options": [
+        { "option": "Blue for calm", "score": 4 },
+        { "option": "Green for peace", "score": 5 },
+        { "option": "Yellow for happiness", "score": 3 },
+        { "option": "Orange for energy", "score": 2 }
+      ]
+    }
+  ]
+}

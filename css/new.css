@@ -1,0 +1,297 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background:
+    rgba(146, 226, 125, 0.5);
+  background-size: 100% 320px;
+  background-position: 0% 100%;
+  animation: wave 5s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+    height: 75vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+  color: #d95c5c;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+  color:#5c8d95 ;
+    font-size: 1.5rem;
+}
+
+.hero-section .btn-primary {
+    background-color: #4b8;
+    border-color: #4b8;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #387;
+    border-color: #387;
+}
+/* Feature box styles */
+.feature-box {
+  background-color: #acffdd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1),
+              0px 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth box shadow and scale transition */
+}
+
+.feature-box:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.feature-box h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.feature-box:hover {
+    transform: scale(1.05);
+}
+/* Therapy Sessions */
+.therapy-box {
+    background-color: #eef;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1, 0.1);
+}
+
+.therapy-box img {
+    width: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.therapy-box h4 {
+    color: #4b8;
+}
+
+.therapy-box p {
+    color: #666;
+}
+
+.therapy-box:hover {
+    transform: scale(1.05);
+}
+
+/* Featured Videos */
+.video-box {
+    background-color: #eaf3f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1, 0.1);
+}
+
+.video-box h5 {
+    color: #4b8;
+}
+
+/* Blog Section */
+.blog-box {
+    background-color: #f9f1e7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-box h5 {
+    color: #d95c5c;
+}
+
+.blog-box p {
+    color: #666;
+}
+
+.blog-box:hover {
+    transform: scale(1.05);
+}
+
+/* Diets Section */
+.diet-box {
+    background-color: #edf9f1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.diet-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.diet-box h4 {
+    color: #5c8d95;
+}
+.diet-box:hover {
+    transform: scale(1.05);
+}
+/* Help Section */
+.help-box {
+    background-color: #f7e9ef;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.help-box h4 {
+    color: #d55b87;
+}
+.help-box:hover {
+    transform: scale(1.05);
+}
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #f0f8af;
+}
+
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .card-body {
+    color: #666;
+}
+
+.card-body:hover {
+    transform: scale(1.05);
+}
+ .feature-box img,
+ .therapy-box img,
+        .diet-box img,
+        .testimonial img,
+        .help-box img,
+        .friend-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+.footer {
+    background-color: #343a40;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
+    
+#see-more-btn {
+display: block;
+margin: 20px auto;
+background-color: #4b8;
+border-color: #4b8;
+}
+
+#see-more-btn:hover {
+    background-color: #387;
+    border-color: #387;
+}
+#search-suggestions {
+    position: absolute;
+    top: 100%;
+    right: 42px; /* Position to the right side */
+    z-index: 1000;
+    width: 300px; /* Adjust width as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px 5px;
+    overflow-y: auto;
+    max-height: 300px; /* Adjust height as needed */
+    margin-top: auto;
+  }
+
+  .result-item {
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+
+  .result-item:hover {
+    background-color: #f1f1f1;
+  }
+
+  .category-name {
+    color: #007bff; /* Change color as needed */
+  }
+  #search-input:focus + #search-suggestions {
+    display: block;
+  }
+
+  #search-input:not(:focus) + #search-suggestions {
+    display: none;
+  }

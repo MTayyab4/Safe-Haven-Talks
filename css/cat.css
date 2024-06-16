@@ -1,0 +1,229 @@
+
+    /* Custom styles */
+    /* Header styles */
+header {
+  position: relative; /* Ensure positioning context for overlay */
+}
+
+.content {
+  padding: 20px; /* Adjust padding as needed */
+  color: #fff; /* Text color */
+}
+
+.content h1 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  color: lightblue;
+}
+
+.content p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .content h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .content p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+.fade-in {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('../imagye/featured.png');
+  background-size: cover;
+  height: 200px;
+  border: 2px;
+  margin-bottom: 1px;
+} 
+
+/* Slider styles */
+.carousel-item img {
+  margin-top: 0.5px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Google ad styles */
+.google-ad {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px;
+}
+
+/* Responsive navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Footer styles */
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Card styles */
+.card.mb-4 {
+  margin-bottom: 1.5rem; /* Adjust margin as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.card-body {
+  padding: 1.5rem; /* Add padding inside the card */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Increased font size of the title */
+  font-weight: 600; /* Make title bold */
+  margin-bottom: 1rem; /* Space between title and buttons */
+}
+
+.list-inline {
+  list-style: none; /* Remove default list styling */
+}
+
+.list-inline-item {
+  margin-right: 0.5rem; /* Space between buttons */
+}
+
+.btn-outline-primary,
+.btn-outline-info,
+.btn-outline-danger {
+  border-width: 1px; /* Thicker border for buttons */
+  font-size: 1rem; /* Increased icon size */
+  padding: 0.3rem 0.7rem; /* Adjust button padding */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff; /* Facebook button hover color */
+  color: #fff; /* White icon color on hover */
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8; /* Twitter button hover color */
+  color: #fff; /* White icon color on hover */
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545; /* Instagram button hover color */
+  color: #fff; /* White icon color on hover */
+}
+
+/* Newsletter styles */
+.newsletter {
+  text-align: center; /* Center align the form */
+}
+
+.newsletter form {
+  max-width: 400px; /* Limit form width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.newsletter .form-group {
+  margin-bottom: 1.5rem; /* Add space between form elements */
+}
+
+.newsletter button[type="submit"] {
+  width: 50%; /* Make button full width */
+ margin-bottom: 20px;
+}
+
+/* About section */
+.about {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center; /* Center align text */
+}
+
+.about h2 {
+  font-size: 2rem; /* Increased font size */
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 1.1rem; /* Increased font size */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact {
+  padding: 50px 0;
+  text-align: center; /* Center align text */
+}
+
+.contact h2 {
+  font-size: 2rem; /* Increased font size */
+  margin-bottom: 30px;
+}
+
+.contact form {
+  max-width: 800px; /* Increased max-width */
+  margin: 0 auto;
+}
+
+.contact .form-group {
+  margin-bottom: 30px; /* Increased margin */
+}
+
+.contact textarea {
+  height: 200px; /* Increased height */
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .banner {
+    height: 150px;
+  }
+
+  .carousel-item img {
+    height: 200px;
+  }
+
+  .google-ad {
+    padding: 10px;
+  }
+}
+
+  

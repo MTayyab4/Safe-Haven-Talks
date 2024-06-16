@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog Site</title>
+    <meta name="description" content="Explore the latest trends, news, and insights on various topics. Stay updated with My Awesome Blog.">
+    <meta name="keywords" content="blog, latest trends, news, insights, articles, My Awesome Blog">
+    <meta name="author" content="Your Name">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cssn/nav.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <style>
+    #article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#article-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#article-content p {
+    margin-bottom: 10px;
+}
+
+#article-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+      
+        
+.article-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-top: 3px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0.1, 0.4);}
+            </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Safe Haven Talks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+                    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Therapy Sessions</h5>
+                                <a class="dropdown-item" href="sessions.html#individual-therapy">Individual Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#group-therapy">Group Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#online-therapy">Online Therapy</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="sessions.html#therapy-sessions" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Videos</h5>
+                                <a class="dropdown-item" href="index.html#mindfulness">Mindfulness</a>
+                                <a class="dropdown-item" href="index.html#meditation">Meditation</a>
+                                <a class="dropdown-item" href="index.html#breathing-exercises">Breathing Exercises</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="yt.html" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Diets</h5>
+                                <a class="dropdown-item" href="diets.html#healthy-eating">Healthy Eating</a>
+                                <a class="dropdown-item" href="diets.html#nutration-tips">Nutrition Tips</a>
+                                <a class="dropdown-item" href="diets.html#meal-plans">Meal Plans</a>
+                      <a id="see-more-btn" class="btn btn-primary" href="diets.html" role="button">See More</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline ml-lg-3" id="search-form">
+                <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div id="search-suggestions"></div>
+        </div>
+    </nav>
+<div class="announcement-bar">
+    <div class="container position-relative">
+    <span class="latest">Latest:</span>
+    <div class="announcement-text" data-text=" ">
+      Take the First Step towards a Happier You: Assess Your Mental Wellbeing! <a href="q.html">Start Now</a>
+    </div>
+  </div>
+</div> 
+ 
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="article-container">
+                <h1 id="article-title" class="text-center mb-4">Loading...</h1>
+                <div id="article-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form class="newsletter">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Connect with Us</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <h2>Contact Us</h2>
+                <p>Email: info@Safe Haven Talks.com</p>
+                <p>Phone: +92 (318) 3342804</p>
+                <p>Address: Model Town, Lahore</p>
+            </div>
+        </div>
+        <hr> <!-- Divider line -->
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Services</h3>
+                <ul class="list-unstyled">
+                    <li><a href="sessions.html" class="text-white">Therapy Sessions</a></li>
+                    <li><a href="video.html" class="text-white">Useful Videos</a></li>
+                    <li><a href="diet.html" class="text-white">Diets</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="contact-us.html" class="text-white">Contact Us</a></li>
+                    <li><a href="about.html" class="text-white">About Us</a></li>
+                    <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="mt-4">&copy; 2024 Safe Haven Talks</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+<script src="js/article.js"></script>
+<script src="js/banner.js"></script>
+<script>
+  // Function to fetch data from JSON file
+    function fetchData() {
+        // Display loading screen
+        document.getElementById('loading').style.display = 'block';
+        
+        // Fetch data from JSON file
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Hide loading screen
+                document.getElementById('loading').style.display = 'none';
+                // Display content
+                document.getElementById('content').style.display = 'block';
+                // Display fetched data
+                document.getElementById('data').innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    }
+
+    // Call fetchData function when the page is loaded
+    window.onload = fetchData;
+</script>
+</body>
+</html>

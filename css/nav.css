@@ -1,0 +1,71 @@
+/* Navbar */
+.navbar {
+    background-color: #5a9;
+    border-bottom: 2px solid #4b8;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #4b8;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.form-inline .form-control {
+    border: 1px solid #4b8;
+}
+
+.form-inline .btn-outline-light {
+    color: #fff;
+    border-color: #4b8;
+}
+
+.form-inline .btn-outline-light:hover {
+    color: #fff;
+    background-color: #4b8;
+}
+
+/* Mega Menu */
+.mega-menu {
+    width: 340px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mega-menu .row {
+    margin: 3;
+}
+
+.mega-menu .col-md-3 {
+    padding: 10px;
+}
+
+.mega-menu h5 {
+    color: #4b8;
+    margin-bottom: 15px;
+}
+
+.mega-menu .dropdown-item {
+    color: #333;
+    padding: 5px 0;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.mega-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #4b8;
+}

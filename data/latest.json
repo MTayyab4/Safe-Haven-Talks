@@ -1,0 +1,41 @@
+{
+  "articles": [
+    {
+      "title": "Article 1",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the first article. It contains a detailed discussion on various topics. Full content is provided here.",
+      "link": "article1.html"
+    },
+    {
+      "title": "Article 2",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the second article. It contains insights and analysis. Full content is provided here.",
+      "link": "article2.html"
+    },
+    {
+      "title": "Article 3",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the third article. It covers several important points. Full content is provided here.",
+      "link": "article3.html"
+    },
+    {
+      "title": "Article 4",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the fourth article. It delves into various subjects. Full content is provided here.",
+      "link": "article4.html"
+    },
+    {
+      "title": "Article 5",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the fifth article. It explores numerous themes. Full content is provided here.",
+      "link": "article5.html"
+    },
+    {
+      "title": "Article 6",
+      "image": "https://via.placeholder.com/150",
+      "content": "This is the sixth article. It provides in-depth knowledge. Full content is provided here.",
+      "link": "article6.html"
+    }
+  ],
+  "perPage": 3
+}

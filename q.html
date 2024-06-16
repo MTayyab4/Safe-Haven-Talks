@@ -1,0 +1,275 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Self Assessment Questionnaire - Safe Haven Talks</title>
+  <meta name="description" content="Take our Self Assessment questionnaire to gain insights into your emotional well-being.">
+  <meta name="keywords" content="Mental Health, assessment, questionnaire, emotional well-being, Safe Haven Talks">
+  <meta name="author" content="Safe Haven Talks">
+  <meta property="og:title" content="Self Assessment Questionnaire - Safe Haven Talks">
+  <meta property="og:description" content="Take our Self Assessment questionnaire to gain insights into your emotional well-being.">
+  <meta property="og:image" content="https://example.com/og-image.jpg">
+  <meta property="og:url" content="https://www.safehaventalks.com/questionnaire.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Self Assessment Questionnaire - Safe Haven Talks">
+  <meta name="twitter:description" content="Take our Self Assessment questionnaire to gain insights into your emotional well-being.">
+  <meta name="twitter:image" content="https://example.com/twitter-card-image.jpg">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/cssn/nav.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    
+    .welcome-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .welcome-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .welcome-section p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .question {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .question-label {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      display: block;
+    }
+    .options-container {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .options-container .form-check {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fdfdfd;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .options-container .form-check:hover {
+      background-color: #f1f1f1;
+      border-color: #ccc;
+    }
+    .options-container .form-check-input:checked + .form-check-label {
+      width: 100%;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    #submit-btn {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    #score-container {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #fff;
+      display: none; /* hide by default */
+    }
+    .result-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      display: none; /* hide by default */
+      max-width: 500px;
+      width: 100%;
+    }
+    .result-popup.show {
+      display: block;
+    }
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+    .form-check-label {
+      margin-left: 5px;
+    }
+    .result-popup h2 {
+      margin-top: 0;
+    }
+    .result-popup p {
+      margin-bottom: 20px;
+    }
+    .share-btn {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Safe Haven Talks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+                    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Therapy Sessions</h5>
+                                <a class="dropdown-item" href="sessions.html#individual-therapy">Individual Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#group-therapy">Group Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#online-therapy">Online Therapy</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="sessions.html#therapy-sessions" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Videos</h5>
+                                <a class="dropdown-item" href="index.html#mindfulness">Mindfulness</a>
+                                <a class="dropdown-item" href="index.html#meditation">Meditation</a>
+                                <a class="dropdown-item" href="index.html#breathing-exercises">Breathing Exercises</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="yt.html" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Diets</h5>
+                                <a class="dropdown-item" href="diets.html#healthy-eating">Healthy Eating</a>
+                                <a class="dropdown-item" href="diets.html#nutration-tips">Nutrition Tips</a>
+                                <a class="dropdown-item" href="diets.html#meal-plans">Meal Plans</a>
+                      <a id="see-more-btn" class="btn btn-primary" href="diets.html" role="button">See More</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline ml-lg-3" id="search-form">
+                <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div id="search-suggestions"></div>
+        </div>
+    </nav>
+<div class="announcement-bar">
+    <div class="container position-relative">
+    <span class="latest">Latest:</span>
+    <div class="announcement-text" data-text=" ">
+      Ready for a Positive Change? Book a Therapy Session Now! <a href="pricing.html">Start Now</a>
+    </div>
+  </div>
+</div>  
+  <div class="container">
+    <div class="welcome-section">
+      <h1>Welcome to the Questionnaire</h1>
+      <p>Answer the questions to find out more about yourself!</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="question-form">
+          <div id="question-container">
+            <!-- Questions will be rendered here -->
+          </div>
+          <button id="submit-btn" class="btn btn-primary btn-block">Submit</button>
+        </form>
+        <div id="score-container">
+          <!-- Score will be displayed here -->
+        </div>
+        <div class="result-popup" id="result-popup">
+          <button class="close-btn" id="close-popup-btn">&times;</button>
+          <h2 id="result-title"></h2>
+          <p id="result-text"></p>
+          <button class="btn btn-secondary share-btn" id="share-btn">Share Your Result</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form class="newsletter">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Connect with Us</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <h2>Contact Us</h2>
+                <p>Email: info@Safe Haven Talks.com</p>
+                <p>Phone: +92 (318) 3342804</p>
+                <p>Address: Model Town, Lahore</p>
+            </div>
+        </div>
+        <hr> <!-- Divider line -->
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Services</h3>
+                <ul class="list-unstyled">
+                    <li><a href="sessions.html" class="text-white">Therapy Sessions</a></li>
+                    <li><a href="video.html" class="text-white">Useful Videos</a></li>
+                    <li><a href="diet.html" class="text-white">Diets</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="contact-us.html" class="text-white">Contact Us</a></li>
+                    <li><a href="about.html" class="text-white">About Us</a></li>
+                    <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="mt-4">&copy; 2024 Safe Haven Talks</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="../js/q.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

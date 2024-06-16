@@ -1,0 +1,275 @@
+{
+  "features": [
+    {
+      "title": "Anxiety Relief",
+      "description": "Find strategies and tools to manage and relieve anxiety.",
+      "strategies": [
+        {
+          "title": "Deep Breathing Exercises",
+          "description": "Practice deep breathing exercises to calm the mind and body.",
+          "image": "path/to/deep_breathing_image.jpg"
+        },
+        {
+          "title": "Meditation and Mindfulness",
+          "description": "Engage in meditation and mindfulness practices to reduce stress and anxiety.",
+          "image": "path/to/meditation_image.jpg"
+        },
+        {
+          "title": "Progressive Muscle Relaxation",
+          "description": "Learn progressive muscle relaxation techniques to release tension and stress.",
+          "image": "path/to/progressive_muscle_relaxation_image.jpg"
+        },
+        {
+          "title": "Visualization Exercises",
+          "description": "Practice visualization exercises to create a sense of calm and relaxation.",
+          "image": "path/to/visualization_image.jpg"
+        },
+        {
+          "title": "Cognitive-Behavioral Therapy (CBT)",
+          "description": "Utilize CBT techniques to identify and challenge negative thought patterns.",
+          "image": "path/to/cbt_image.jpg"
+        },
+        {
+          "title": "Supportive Social Network",
+          "description": "Seek support from friends, family, or support groups to cope with anxiety.",
+          "image": "path/to/support_network_image.jpg"
+        },
+        {
+          "title": "Journaling",
+          "description": "Keep a journal to express thoughts and emotions and gain perspective on anxiety triggers.",
+          "image": "path/to/journaling_image.jpg"
+        },
+        {
+          "title": "Engage in Hobbies",
+          "description": "Participate in hobbies or activities that provide a sense of enjoyment and distraction from anxiety.",
+          "image": "path/to/hobbies_image.jpg"
+        },
+        {
+          "title": "Setting Boundaries",
+          "description": "Establish boundaries to protect personal time and reduce stressors that contribute to anxiety.",
+          "image": "path/to/boundaries_image.jpg"
+        },
+        {
+          "title": "Aromatherapy",
+          "description": "Use calming scents like lavender or chamomile to promote relaxation and reduce anxiety.",
+          "image": "path/to/aromatherapy_image.jpg"
+        },
+        {
+          "title": "Physical Exercise",
+          "description": "Engage in regular physical activity to release endorphins and alleviate symptoms of anxiety.",
+          "image": "path/to/exercise_image.jpg"
+        },
+        {
+          "title": "Healthy Eating",
+          "description": "Maintain a balanced diet to support overall physical and mental health.",
+          "image": "path/to/healthy_eating_image.jpg"
+        },
+        {
+          "title": "Limit Stimulants",
+          "description": "Reduce intake of caffeine, nicotine, and other stimulants that can exacerbate anxiety.",
+          "image": "path/to/stimulants_image.jpg"
+        },
+        {
+          "title": "Mindfulness Apps",
+          "description": "Use mindfulness apps or guided meditation recordings to practice mindfulness and reduce anxiety.",
+          "image": "path/to/mindfulness_apps_image.jpg"
+        },
+        {
+          "title": "Seek Professional Help",
+          "description": "Consult with a mental health professional for therapy or medication options.",
+          "image": "path/to/professional_help_image.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Healthy Habits",
+      "description": "Develop healthy habits that promote mental and physical well-being.",
+      "strategies": [
+        {
+          "title": "Balanced Diet",
+          "description": "Maintain a balanced diet rich in fruits, vegetables, and whole grains.",
+          "image": "path/to/balanced_diet_image.jpg"
+        },
+        {
+          "title": "Regular Exercise",
+          "description": "Incorporate regular exercise into your routine for overall health and well-being.",
+          "image": "path/to/exercise_image.jpg"
+        },
+        {
+          "title": "Prioritize Sleep",
+          "description": "Establish a consistent sleep schedule and prioritize getting enough rest each night.",
+          "image": "path/to/sleep_image.jpg"
+        },
+        {
+          "title": "Self-Care Activities",
+          "description": "Engage in self-care activities that promote relaxation and rejuvenation.",
+          "image": "path/to/self_care_image.jpg"
+        },
+        {
+          "title": "Hydration",
+          "description": "Drink plenty of water throughout the day to stay hydrated and support bodily functions.",
+          "image": "path/to/hydration_image.jpg"
+        },
+        {
+          "title": "Limit Alcohol",
+          "description": "Drink alcohol in moderation and avoid excessive consumption to maintain health.",
+          "image": "path/to/alcohol_limitation_image.jpg"
+        },
+        {
+          "title": "Avoid Smoking",
+          "description": "Quit smoking or avoid exposure to secondhand smoke for better respiratory health.",
+          "image": "path/to/smoking_avoidance_image.jpg"
+        },
+        {
+          "title": "Regular Health Checkups",
+          "description": "Schedule regular checkups with healthcare providers for preventive care and early detection of health issues.",
+          "image": "path/to/health_checkups_image.jpg"
+        },
+        {
+          "title": "Mindfulness Practices",
+          "description": "Incorporate mindfulness practices like meditation or yoga into daily routines for stress reduction.",
+          "image": "path/to/mindfulness_practices_image.jpg"
+        },
+        {
+          "title": "Social Connections",
+          "description": "Nurture relationships with friends and family for social support and emotional well-being.",
+          "image": "path/to/social_connections_image.jpg"
+        },
+        {
+          "title": "Limit Screen Time",
+          "description": "Reduce time spent on electronic devices to improve sleep quality and reduce eye strain.",
+          "image": "path/to/screen_time_limitation_image.jpg"
+        },
+        {
+          "title": "Healthy Coping Mechanisms",
+          "description": "Develop healthy coping mechanisms like journaling or exercise to manage stress.",
+          "image": "path/to/coping_mechanisms_image.jpg"
+        },
+        {
+          "title": "Gratitude Practice",
+          "description": "Cultivate a practice of gratitude to focus on the positive aspects of life and promote well-being.",
+          "image": "path/to/gratitude_practice_image.jpg"
+        },
+        {
+          "title": "Creative Expression",
+          "description": "Engage in creative activities like art or music to express emotions and foster self-expression.",
+          "image": "path/to/creative_expression_image.jpg"
+        },
+        {
+          "title": "Time in Nature",
+          "description": "Spend time outdoors in nature to reduce stress and promote mental health.",
+          "image": "path/to/nature_time_image.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Stress Management",
+      "description": "Explore techniques to manage and reduce stress effectively.",
+      "strategies": [
+        {
+          "title": "Time Management",
+                    "description": "Use time management techniques to prioritize tasks and reduce stress.",
+          "image": "path/to/time_management_image.jpg"
+        },
+        {
+          "title": "Relaxation Techniques",
+          "description": "Practice relaxation techniques such as deep breathing and visualization.",
+          "image": "path/to/relaxation_image.jpg"
+        },
+        {
+          "title": "Set Realistic Goals",
+          "description": "Set achievable goals to reduce feelings of overwhelm and stress.",
+          "image": "path/to/goals_image.jpg"
+        },
+        {
+          "title": "Social Support",
+          "description": "Seek support from friends, family, or a therapist to cope with stress.",
+          "image": "path/to/social_support_image.jpg"
+        },
+        {
+          "title": "Physical Activity",
+          "description": "Engage in regular physical activity to reduce stress hormones and improve mood.",
+          "image": "path/to/physical_activity_image.jpg"
+        },
+        {
+          "title": "Mindfulness Practices",
+          "description": "Incorporate mindfulness practices like meditation or yoga into daily routines for stress reduction.",
+          "image": "path/to/mindfulness_practices_image.jpg"
+        },
+        {
+          "title": "Healthy Communication",
+          "description": "Practice assertive communication to express needs and reduce conflict.",
+          "image": "path/to/communication_image.jpg"
+        },
+        {
+          "title": "Healthy Boundaries",
+          "description": "Set boundaries to protect personal time and reduce stress from overcommitment.",
+          "image": "path/to/boundaries_image.jpg"
+        },
+        {
+          "title": "Problem-Solving Skills",
+          "description": "Develop problem-solving skills to address challenges and reduce stress.",
+          "image": "path/to/problem_solving_image.jpg"
+        },
+        {
+          "title": "Humor and Laughter",
+          "description": "Incorporate humor and laughter into daily life to reduce stress and improve mood.",
+          "image": "path/to/humor_image.jpg"
+        },
+        {
+          "title": "Music Therapy",
+          "description": "Listen to music or play musical instruments as a form of relaxation and stress relief.",
+          "image": "path/to/music_therapy_image.jpg"
+        },
+        {
+          "title": "Nature Walks",
+          "description": "Spend time in nature by taking walks or hikes to reduce stress and increase relaxation.",
+          "image": "path/to/nature_walks_image.jpg"
+        },
+        {
+          "title": "Journaling",
+          "description": "Keep a journal to reflect on thoughts and emotions, fostering self-awareness and stress reduction.",
+          "image": "path/to/journaling_image.jpg"
+        },
+        {
+          "title": "Mindfulness Apps",
+          "description": "Use smartphone apps designed for mindfulness and meditation to reduce stress and promote relaxation.",
+          "image": "path/to/mindfulness_apps_image.jpg"
+        },
+        {
+          "title": "Progressive Muscle Relaxation",
+          "description": "Learn and practice progressive muscle relaxation techniques to release tension and promote relaxation.",
+          "image": "path/to/progressive_muscle_relaxation_image.jpg"
+        },
+        {
+          "title": "Breathing Exercises",
+          "description": "Practice controlled breathing exercises to calm the mind and body during stressful situations.",
+          "image": "path/to/breathing_exercises_image.jpg"
+        },
+        {
+          "title": "Visualization",
+          "description": "Engage in visualization exercises to imagine calming scenes and reduce stress levels.",
+          "image": "path/to/visualization_image.jpg"
+        },
+        {
+          "title": "Healthy Diet",
+          "description": "Maintain a balanced diet rich in nutrients to support overall health and reduce stress levels.",
+          "image": "path/to/healthy_diet_image.jpg"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    {
+      "title": "Ad Title 1",
+      "image": "path/to/ad_image_1.jpg",
+      "link": "https://example.com"
+    },
+    {
+      "title": "Ad Title 2",
+      "image": "path/to/ad_image_2.jpg",
+      "link": "https://example.com"
+    }
+  ]
+}
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category Articles</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/cat.css">
+   <link rel="stylesheet" href="css/cssn/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Safe Haven Talks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+                    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Therapy Sessions</h5>
+                                <a class="dropdown-item" href="sessions.html#individual-therapy">Individual Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#group-therapy">Group Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#online-therapy">Online Therapy</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="sessions.html#therapy-sessions" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Videos</h5>
+                                <a class="dropdown-item" href="index.html#mindfulness">Mindfulness</a>
+                                <a class="dropdown-item" href="index.html#meditation">Meditation</a>
+                                <a class="dropdown-item" href="index.html#breathing-exercises">Breathing Exercises</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="yt.html" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Diets</h5>
+                                <a class="dropdown-item" href="diets.html#healthy-eating">Healthy Eating</a>
+                                <a class="dropdown-item" href="diets.html#nutration-tips">Nutrition Tips</a>
+                                <a class="dropdown-item" href="diets.html#meal-plans">Meal Plans</a>
+                      <a id="see-more-btn" class="btn btn-primary" href="diets.html" role="button">See More</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline ml-lg-3" id="search-form">
+                <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div id="search-suggestions"></div>
+        </div>
+    </nav>
+<div class="announcement-bar">
+    <div class="container position-relative">
+    <span class="latest">Latest:</span>
+    <div class="announcement-text" data-text=" ">
+      Take the First Step towards a Happier You: Assess Your Mental Wellbeing! <a href="q.html">Start Now</a>
+    </div>
+  </div>
+</div> 
+  <!-- Slider -->
+  <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../image/img5.png" class="d-block w-100" alt="Slider Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="../image/img6.png" class="d-block w-100" alt="Slider Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="../image/img4.png" class="d-block w-100" alt="Slider Image 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Google Ad -->
+  <div class="container google-ad text-center">
+    <!-- Replace with your Google Ad code -->
+    <p>This is where your Google Ad will appear</p>
+  </div>
+
+  <!-- Category Articles -->
+  <div class="container py-4">
+    <h1 id="category-title" class="mt-4 text-center">Loading...</h1>
+    <div id="category-articles" class="list-group mt-4">
+      <!-- Articles will be dynamically populated here -->
+    </div>
+    <div id="loading" class="text-center mt-4">Loading...</div>
+  </div>
+
+  <!-- Follow Me Section -->
+  <div class="container">
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Follow Me</h5>
+        <ul class="list-inline text-center">
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-outline-danger"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest Articles Section -->
+  <div class="container latest-articles">
+    <h2 class="text-center">Latest Articles</h2>
+  <div class="container mt-5">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title" onclick="toggleArticle(this)">Article Title 1</h5>
+                <p class="card-text">
+                    Brief description of the article content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nulla mauris. Sed vitae metus vel sapien eleifend bibendum. Fusce eu tellus et massa consectetur ullamcorper. Nulla facilisi. Suspendisse non ligula id tellus rutrum malesuada. Integer nec venenatis mauris. Donec nec dolor nec nisi condimentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed malesuada velit.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title" onclick="toggleArticle(this)">Article Title 2</h5>
+                <p class="card-text">
+                    Brief description of the article content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nulla mauris. Sed vitae metus vel sapien eleifend bibendum. Fusce eu tellus et massa consectetur ullamcorper. Nulla facilisi. Suspendisse non ligula id tellus rutrum malesuada. Integer nec venenatis mauris. Donec nec dolor nec nisi condimentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed malesuada velit.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<<footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form class="newsletter">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Connect with Us</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <h2>Contact Us</h2>
+                <p>Email: info@Safe Haven Talks.com</p>
+                <p>Phone: +92 (318) 3342804</p>
+                <p>Address: Model Town, Lahore</p>
+            </div>
+        </div>
+        <hr> <!-- Divider line -->
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Services</h3>
+                <ul class="list-unstyled">
+                    <li><a href="sessions.html" class="text-white">Therapy Sessions</a></li>
+                    <li><a href="video.html" class="text-white">Useful Videos</a></li>
+                    <li><a href="diet.html" class="text-white">Diets</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="contact-us.html" class="text-white">Contact Us</a></li>
+                    <li><a href="about.html" class="text-white">About Us</a></li>
+                    <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="mt-4">&copy; 2024 Safe Haven Talks</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/category.js"></script>
+</body>
+</html>

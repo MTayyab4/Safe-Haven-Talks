@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Haven Talks - Blog</title>
+<meta name="description" content="Explore insightful articles on mental health, wellness tips, and community stories on Safe Haven Talks' blog. Stay informed and inspired.">
+    <meta name="keywords" content="Safe Haven Talks, mental health, wellness, community support, mental wellbeing, personal growth, self-care">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Safe Haven Talks - Blog">
+    <meta property="og:description" content="Explore insightful articles on mental health, wellness tips, and community stories on Safe Haven Talks' blog. Stay informed and inspired.">
+    <meta property="og:image" content="https://www.yourwebsite.com/path/to/your/image.jpg">
+    <meta property="og:url" content="https://www.yourwebsite.com/blog.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Safe Haven Talks - Blog">
+    <meta name="twitter:description" content="Explore insightful articles on mental health, wellness tips, and community stories on Safe Haven Talks' blog. Stay informed and inspired.">
+    <meta name="twitter:image" content="https://www.yourwebsite.com/path/to/your/image.jpg">
+    <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/cssn/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #333;
+            --secondary-color: #666;
+            --font-family: Arial, sans-serif;
+            --font-size: 16px;
+            --line-height: 1.5;
+        }
+    </style>
+  <script>
+function loadScript(url) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = url;
+    script.onload = resolve;
+    script.onerror = () => {
+      // Retry loading script after 1 second
+      setTimeout(() => {
+        loadScript(url).then(resolve).catch(reject);
+      }, 1000);
+    };
+    document.head.appendChild(script);
+  });
+}
+
+const scripts = ['../js/banner.js', '../js/blog.js', '../js/search.js', '../js/test.js'];
+
+Promise.all(scripts.map(loadScript)).then(() => {
+  // All scripts loaded successfully
+}).catch(() => {
+  // One or more scripts failed to load
+});
+</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Safe Haven Talks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+                    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Therapy Sessions</h5>
+                                <a class="dropdown-item" href="sessions.html#individual-therapy">Individual Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#group-therapy">Group Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#online-therapy">Online Therapy</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="sessions.html#therapy-sessions" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Videos</h5>
+                                <a class="dropdown-item" href="index.html#mindfulness">Mindfulness</a>
+                                <a class="dropdown-item" href="index.html#meditation">Meditation</a>
+                                <a class="dropdown-item" href="index.html#breathing-exercises">Breathing Exercises</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="yt.html" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Diets</h5>
+                                <a class="dropdown-item" href="diets.html#healthy-eating">Healthy Eating</a>
+                                <a class="dropdown-item" href="diets.html#nutration-tips">Nutrition Tips</a>
+                                <a class="dropdown-item" href="diets.html#meal-plans">Meal Plans</a>
+                      <a id="see-more-btn" class="btn btn-primary" href="diets.html" role="button">See More</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline ml-lg-3" id="search-form">
+                <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div id="search-suggestions"></div>
+        </div>
+    </nav>
+<div class="announcement-bar">
+    <div class="container position-relative">
+    <span class="latest">Latest:</span>
+    <div class="announcement-text" data-text=" ">
+      Take the First Step towards a Happier You: Assess Your Mental Wellbeing! <a href="q.html">Start Now</a>
+    </div>
+  </div>
+</div> 
+    <main class="main">
+     <div class="container">
+          <div id="includedContent2"></div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <img src="../image/convo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                            <h5 class="card-title"><b>Mental Health</b></h5>
+                            <p class="card-text">In this Article, we're going to be talking openly and honestly about mental health.</p>
+                            <a href="feature.html" class="btn btn-primary" id="main-article-read-more">Read more</a>
+                        </div>
+                    </div>
+                    
+                    <div id="includedContent1"></div>
+                    
+                    <h2 class="mt-4">Latest Articles</h2>
+                    <div class="row" id="articles-container">
+                        <!-- Articles will be dynamically inserted here -->
+                    </div>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination justify-content-center" id="pagination-container">
+                            <!-- Pagination will be dynamically inserted here -->
+                        </ul>
+                    </nav>
+                </div>
+                
+
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">Welcome to <a href="https://www.[Your Website Name].com">Safe Haven Talks</a>, your go-to hub for <span style="background-color: #fffd73">mental health support</span> and <span style="background-color: #fffd73">wellness</span>. We're a community that <span style="background-color: #fffd73">cares</span>, <span style="background-color: #fffd73">listens</span>, and <span style="background-color: #fffd73">understands</span>.</p>
+                            <p>Learn more about our <a href="https://www.[Your Website Name].com/resources">resources</a> and <a href="https://www.[Your Website Name].com/experts">experts</a>.</p>
+                           <p>We’re here to help you navigate life’s challenges, celebrate your wins, and embrace your uniqueness. Join us, and let’s grow together!</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                    <img src="../image/convo.png" class="card-img-top" alt="...">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="mt-5">Categories</h2>
+                            <div id="categories" class="categories">
+                                <!-- Popular categories will be dynamically added here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Follow Me</h5>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-outline-danger"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="mt-5">Trending Articles</h2>
+                            <div id="trending-articles" class="trending-articles">
+                                <!-- Popular categories will be dynamically added here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="mt-5">Popular Categories</h2>
+                            <div id="popular-categories" class="popular-categories">
+                                <!-- Popular categories will be dynamically added here -->
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="mt-5">Featured Videos</h2>
+                            <div id="featured-videos" class="featured-videos">
+                                <!-- Popular categories will be dynamically added here -->
+                            </div>
+                        </div>
+                    </div>
+    </main>
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container">
+            <!-- Newsletter Section -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <form class="newsletter">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2>Connect with Us</h2>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <h2>Contact Us</h2>
+                    <p>Email: info@Safe Haven Talks.com</p>
+                    <p>Phone: +92 (318) 3342804</p>
+                    <p>Address: Model Town, Lahore</p>
+                </div>
+            </div>
+            <hr>
+            <!-- Divider line -->
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Services</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="sessions.html" class="text-white">Therapy Sessions</a></li>
+                        <li><a href="video.html" class="text-white">Useful Videos</a></li>
+                        <li><a href="diet.html" class="text-white">Diets</a></li>
+                    </ul>
+            </div>
+                <div class="col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="contact-us.html" class="text-white">Contact Us</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p class="mt-4">&copy; 2024 Safe Haven Talks</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

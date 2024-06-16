@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cssn/nav.css">
+    <link rel="stylesheet" href="../css/styles.css">
+  <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9e9;
+            color: #343a40;
+        }
+
+        .contact-header {
+            background-color: #5a9;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.1);
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .contact-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .contact-header p {
+            font-size: 1.2rem;
+            z-index: 2;
+            position: relative;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .btn-custom {
+            border-radius: 50px;
+            font-size: 1.1rem;
+            padding: 10px 30px;
+            background-color: #5a9;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #4b8;
+            color: #fff;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-info h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+        }
+
+        .contact-info .icon {
+            color: #5a9;
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        /* Animation for fade-in effect */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Wave effect for the header */
+        .wave {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            background: url('wave.svg') repeat-x;
+            animation: wave 10s linear infinite;
+        }
+
+        @keyframes wave {
+            0% { background-position-x: 0; }
+            100% { background-position-x: 1000px; }
+        }
+    </style>
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Safe Haven Talks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+                    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Therapy Sessions</h5>
+                                <a class="dropdown-item" href="sessions.html#individual-therapy">Individual Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#group-therapy">Group Therapy</a>
+                                <a class="dropdown-item" href="sessions.html#online-therapy">Online Therapy</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="sessions.html#therapy-sessions" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Videos</h5>
+                                <a class="dropdown-item" href="index.html#mindfulness">Mindfulness</a>
+                                <a class="dropdown-item" href="index.html#meditation">Meditation</a>
+                                <a class="dropdown-item" href="index.html#breathing-exercises">Breathing Exercises</a>
+                                <a id="see-more-btn" class="btn btn-primary" href="yt.html" role="button">See More</a>
+      
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Diets</h5>
+                                <a class="dropdown-item" href="diets.html#healthy-eating">Healthy Eating</a>
+                                <a class="dropdown-item" href="diets.html#nutration-tips">Nutrition Tips</a>
+                                <a class="dropdown-item" href="diets.html#meal-plans">Meal Plans</a>
+                      <a id="see-more-btn" class="btn btn-primary" href="diets.html" role="button">See More</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline ml-lg-3" id="search-form">
+                <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div id="search-suggestions"></div>
+        </div>
+    </nav>
+<div class="announcement-bar">
+    <div class="container position-relative">
+    <span class="latest">Latest:</span>
+    <div class="announcement-text" data-text=" ">
+      Take the First Step towards a Happier You: Assess Your Mental Wellbeing! <a href="q.html">Start Now</a>
+    </div>
+  </div>
+</div> 
+  
+    <div class="container contact-form animate__animated animate__fadeInUp">
+        <h2>Get in Touch</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form class="newsletter">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Connect with Us</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <h2>Contact Us</h2>
+                <p>Email: info@Safe Haven Talks.com</p>
+                <p>Phone: +92 (318) 3342804</p>
+                <p>Address: Model Town, Lahore</p>
+            </div>
+        </div>
+        <hr> <!-- Divider line -->
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Services</h3>
+                <ul class="list-unstyled">
+                    <li><a href="sessions.html" class="text-white">Therapy Sessions</a></li>
+                    <li><a href="video.html" class="text-white">Useful Videos</a></li>
+                    <li><a href="diet.html" class="text-white">Diets</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="contact-us.html" class="text-white">Contact Us</a></li>
+                    <li><a href="about.html" class="text-white">About Us</a></li>
+                    <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="mt-4">&copy; 2024 Safe Haven Talks</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
